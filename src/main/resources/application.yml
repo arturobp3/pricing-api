@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pricing-api
+
+  config:
+    import:
+      - optional:classpath:env-configs/${APP_ENV}/${APP_REGION}.yml

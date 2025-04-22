@@ -1,0 +1,12 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///pricingdb
+    username: sa
+    password:
+
+  redis:
+    host: redis
+    port: 6379
+
+pricing:
+  default-currency: EUR
