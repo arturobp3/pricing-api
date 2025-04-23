@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 import java.time.ZoneId;
 
 @Data
-@Configuration
 @ConfigurationProperties(prefix = "pricing")
 public class PricingProperties {
 
