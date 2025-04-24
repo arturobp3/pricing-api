@@ -13,3 +13,5 @@ public class PricingProperties {
 
     private String defaultCurrency;
 }
+
+// TODO: mirar si borramos esta clase

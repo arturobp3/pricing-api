@@ -1,8 +1,8 @@
-package com.inditex.pricing_api.infrastructure.h2;
+package com.inditex.pricing_api.infrastructure.persistance.h2;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inditex.pricing_api.infrastructure.h2.model.EntryPricesTable;
+import com.inditex.pricing_api.infrastructure.persistance.h2.model.EntryPricesTable;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import java.util.List;
 @Component
 @RequiredArgsConstructor
 @Slf4j
-public class DatabaseInitializer {
+public class H2Initializer {
 
     private final ObjectMapper objectMapper;
     private final DatabaseClient databaseClient;

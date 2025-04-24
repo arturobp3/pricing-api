@@ -1,4 +1,4 @@
-package com.inditex.pricing_api.infrastructure.h2.model;
+package com.inditex.pricing_api.infrastructure.persistance.h2.model;
 
 
 import lombok.*;
@@ -19,9 +19,9 @@ public class EntryPricesTable {
     private Long brandId;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
-    private Integer priceList;
+    private Long priceList;
     private Long productId;
-    private Integer priority;
+    private Long priority;
     private BigDecimal price;
     private String currency;
 }
