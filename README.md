@@ -62,10 +62,7 @@ This microservice retrieves the applicable price for a given product and brand a
 ### Steps
 
 ```bash
-# 1. Build the project
-mvn clean install
-
-# 2. Run docker-compose
+# 1. Run docker-compose
 docker-compose up --build
 ```
 
