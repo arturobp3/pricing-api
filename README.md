@@ -2,7 +2,16 @@
 
 ---
 
-This project was built using **Spring Boot 3**, **Reactor**, **Redis**, and **R2DBC** on **H2** database. It follows **Hexagonal Architecture** and **DDD principles**, ensuring a modular, scalable, and easily testable design.
+## Technologies Used
+
+- Java 21
+- Spring Boot 3.4.4 (WebFlux)
+- R2DBC (Reactive H2 Database)
+- Redis (Reactive Client)
+- Docker + Docker Compose
+- JUnit 5 + Mockito + Reactor Test (Unit & Integration tests)
+- Lombok
+- Swagger OpenAPI 3 (available at `/docs`)
 
 ---
 
@@ -80,6 +89,23 @@ This will return either:
 
 ---
 
+### Javadoc Documentation 🖋
+
+- Every public class and method is documented.
+- **To generate the Javadoc:**
+
+```bash
+mvn javadoc:javadoc
+```
+
+- **Generated output:**
+  - HTML pages under `target/site/apidocs/`
+
+- **To open:**
+  - Open `target/site/apidocs/index.html` in your browser.
+
+---
+
 ## 📖 Swagger OpenAPI Documentation
 
 Once the service is running, you can view the API documentation:
@@ -96,7 +122,7 @@ Includes:
 
 - **Unit tests** (using JUnit 5 and Mockito).
 - **Integration tests** (using WebTestClient).
-- **Coverage** exceeds 85% 📈.
+- **Coverage** exceeds 80% 📈.
 - **Stress tests** included in the Postman collection.
 
 ✅ Full coverage on domain mappers, services, Redis, and H2 repositories.
@@ -107,15 +133,32 @@ Includes:
 
 - **Implement Circuit Breaker (Resilience4j)**:
     - In case Redis or H2 fails, automatically fallback or open a circuit.
-- **Distributed Cache**:
-    - Use Redis Cluster for horizontal scalability.
+
+
 - **Redis Event Listeners**:
     - Automatically evict or refresh cache when H2 changes.
+
+
 - **Metrics and Monitoring**:
     - Add Prometheus/Grafana integration.
+
+
 - **Retry Mechanism**:
     - Auto-retry transient failures (e.g., in Redis or DB) using reactive retries.
+
+
 - **API Rate Limiting**:
     - Protect the API against overload using Bucket4j or Spring Cloud Gateway.
 
 ---
+
+## Final Notes
+
+The project is structured, documented, tested, and ready for real-world adaptation or extension.
+
+Thanks for reviewing!
+
+---
+
+**Author:** Arturo Barbero Pérez 👨‍💻
+
