@@ -2,7 +2,7 @@
 
 ---
 
-This project was built using **Spring Boot 3**, **Reactor**, **Redis**, and **R2DBC** on **H2** database. It follows **Hexagonal Architecture** and **DDD principles**, ensuring a modular, scalable, and easily testable design.
+This project was built using **Spring Boot 3**, **WebFlux**, **Redis**, and **R2DBC** on **H2** database. It follows **Hexagonal Architecture** and **DDD principles**, ensuring a modular, scalable, and easily testable design.
 
 ---
 
