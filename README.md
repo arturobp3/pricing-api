@@ -27,7 +27,7 @@
 
 ## 🧠 Overview
 This microservice retrieves the applicable price for a given product and brand at a specific application date. It supports:
-- Multipais configuration (`APP_ENV` and `APP_REGION`).
+- Multicountry configuration (`APP_ENV` and `APP_REGION`).
 - In-memory database H2 for persistence.
 - Redis cache for optimized retrieval.
 - Full reactive stack using WebFlux and R2DBC.
@@ -62,7 +62,6 @@ This microservice retrieves the applicable price for a given product and brand a
 ### Steps
 
 ```bash
-# 1. Run docker-compose
 docker-compose up --build
 ```
 
@@ -79,10 +78,6 @@ It includes normal test cases and **stress tests**.
 ```bash
 curl -X GET "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14T18:30:00&productId=35455&brandId=1"
 ```
-
-This will return either:
-- **200 OK** with applicable price.
-- **204 No Content** if no applicable price is found.
 
 ---
 
@@ -121,8 +116,6 @@ Includes:
 - **Integration tests** (using WebTestClient).
 - **Coverage** exceeds 80% 📈.
 - **Stress tests** included in the Postman collection.
-
-✅ Full coverage on domain mappers, services, Redis, and H2 repositories.
 
 ---
 
