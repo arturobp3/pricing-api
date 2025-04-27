@@ -48,7 +48,7 @@ This microservice retrieves the applicable price for a given product and brand a
 - Fall back to database query when cache fails.
 
 **4. Multicountry Support**
-- The configuration files and database initial data are environment-dependent: `APP_ENV` and `APP_REGION`.
+- The configuration files and database initial data are environment-dependent: `APP_ENV` and `APP_REGION` and this data contains 1000 different entries to test scalability and concurrency.
 - Example: `data/prod/es/large_entries.json` for Production in Spain.
 
 ---
