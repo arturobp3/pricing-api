@@ -146,6 +146,10 @@ Includes:
 
 The project is structured, documented, tested, and ready for real-world adaptation or extension.
 
+I have taken into account the premises that it has to be scalable, resilient, with good performance and prepared as much as possible for a productive environment... many things and advanced design techniques could be added to make all this happen. 
+
+Personally, what I have done has been to try to make a balance between everything I know, what I think the API should have in a first production release and try to meet the deadline agreed with the technical recruiter, but making sure that the main requirements that were asked were covered. The rest of the improvements are in the Future Improvements section.
+
 Thanks for reviewing!
 
 ---
