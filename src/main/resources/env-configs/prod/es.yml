@@ -1,0 +1,21 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///pricingdb;DB_CLOSE_DELAY=-1;MODE=MYSQL
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+
+  redis:
+    host: ${SPRING_REDIS_HOST:redis}
+    port: ${SPRING_REDIS_PORT:6379}
+    ttl-seconds: ${PRICING_REDIS_TTL_SECONDS:600}
+
