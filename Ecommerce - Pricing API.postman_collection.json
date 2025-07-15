@@ -1,0 +1,7295 @@
+{
+	"info": {
+		"_postman_id": "f189f07e-6296-4188-839f-77b9820e4245",
+		"name": "Ecommerce - Pricing API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39507185"
+	},
+	"item": [
+		{
+			"name": "Stress Test",
+			"item": [
+				{
+					"name": "GET Price - Test 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-12-02T18:03:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-02T18:03:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-10-22T06:25:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-22T06:25:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-09-20T21:50:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-20T21:50:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 4",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-03-15T09:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-15T09:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 5",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-09-25T01:31:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-25T01:31:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-11-29T02:46:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-29T02:46:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 7",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-12-24T19:16:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-24T19:16:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 8",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-04-30T20:13:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-30T20:13:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 9",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-11-15T02:21:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-15T02:21:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-12-20T10:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-20T10:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-10-29T18:52:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-29T18:52:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 12",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-05-27T07:07:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-27T07:07:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 13",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-05-08T15:47:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-08T15:47:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 14",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-08-25T00:14:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-25T00:14:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 15",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-03-21T05:44:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-21T05:44:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 16",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-05-11T17:19:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-11T17:19:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 17",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-03-28T06:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-28T06:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 18",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-09-27T03:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-27T03:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 19",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-02-01T07:17:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-01T07:17:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 20",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-08-19T09:49:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-19T09:49:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 21",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-02-22T01:56:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-22T01:56:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 22",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-09-26T20:15:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-26T20:15:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 23",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-10-17T14:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-17T14:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 24",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-07-24T04:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-24T04:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 25",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-08-08T05:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-08T05:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 26",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-10-02T13:34:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-02T13:34:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 27",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-07-24T03:03:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-24T03:03:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 28",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-12-25T19:21:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-25T19:21:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 29",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-11-21T07:37:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-21T07:37:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 30",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-11-22T04:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-22T04:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 31",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-03-16T05:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-16T05:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 32",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-02-03T16:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-03T16:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 33",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-03-11T09:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-11T09:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 34",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-06-01T12:52:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-01T12:52:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 35",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-11-18T09:15:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-18T09:15:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 36",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-07-31T16:06:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-31T16:06:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 37",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-03-10T18:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-10T18:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 38",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-11-19T10:38:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-19T10:38:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 39",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-07-02T12:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-02T12:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 40",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-09-11T05:12:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-11T05:12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 41",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-09-29T17:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-29T17:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 42",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-02-12T01:45:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-12T01:45:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 43",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-11-29T17:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-29T17:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 44",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-01-27T11:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-27T11:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 45",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-04-29T08:47:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-29T08:47:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 46",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-11-06T23:19:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-06T23:19:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 47",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-04-14T14:12:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-14T14:12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 48",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-04-19T09:30:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-19T09:30:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 49",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-08-19T13:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-19T13:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 50",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-02-15T18:32:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-15T18:32:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 51",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-06-16T13:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-16T13:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 52",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-06-09T08:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-09T08:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 53",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-07-24T07:50:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-24T07:50:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 54",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-04-02T11:12:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-02T11:12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 55",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-04-02T03:55:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-02T03:55:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 56",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-11-12T03:07:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-12T03:07:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 57",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-09-23T13:12:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-23T13:12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 58",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-03-25T14:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-25T14:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 59",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-04-09T02:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-09T02:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 60",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-05-21T01:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-21T01:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 61",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-02-26T21:32:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-26T21:32:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 62",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-04-25T02:27:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-25T02:27:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 63",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-10-11T14:58:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-11T14:58:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 64",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-10-30T04:53:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-30T04:53:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 65",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-11-05T17:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-05T17:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 66",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-05-12T19:55:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-12T19:55:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 67",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-10-18T18:34:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-18T18:34:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 68",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-04-15T19:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-15T19:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 69",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-05-22T19:35:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-22T19:35:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 70",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-08-06T07:30:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-06T07:30:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 71",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-11-16T16:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-16T16:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 72",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-11-03T18:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-03T18:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 73",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-04-22T21:28:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-22T21:28:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 74",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-08-03T03:17:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-03T03:17:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 75",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-06-05T19:07:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-05T19:07:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 76",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-01-17T20:41:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-17T20:41:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 77",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-07-27T18:05:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-27T18:05:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 78",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-04-05T12:55:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-05T12:55:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 79",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-04-06T03:48:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-06T03:48:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 80",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-07-19T16:29:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-19T16:29:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 81",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-09-15T19:41:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-15T19:41:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 82",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-02-20T06:29:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-20T06:29:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 83",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-08-22T17:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-22T17:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 84",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-05-12T19:58:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-12T19:58:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 85",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-04-26T02:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-26T02:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 86",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-01-01T12:33:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-01T12:33:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 87",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-03-19T08:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-19T08:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 88",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-04-07T17:08:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-07T17:08:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 89",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-04-10T16:03:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-10T16:03:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 90",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-02-26T03:22:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-26T03:22:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 91",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-04-13T18:19:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-13T18:19:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 92",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-05-04T00:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-04T00:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 93",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-04-22T16:58:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-22T16:58:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 94",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-07-02T12:59:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-02T12:59:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 95",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-08-04T16:42:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-04T16:42:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 96",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-05-19T00:48:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-19T00:48:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 97",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-12-16T16:39:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-16T16:39:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 98",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-03-13T16:07:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-13T16:07:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 99",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-07-17T23:52:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-17T23:52:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 100",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-06-29T19:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-29T19:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 101",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-10-23T22:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-23T22:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 102",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-07-13T20:57:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-13T20:57:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 103",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-09-27T07:38:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-27T07:38:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 104",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-09-23T21:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-23T21:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 105",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-12-07T01:19:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-07T01:19:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 106",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-01-08T02:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-08T02:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 107",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-09-23T09:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-23T09:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 108",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-11-02T11:05:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-02T11:05:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 109",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-05-01T18:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-01T18:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 110",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-06-15T22:08:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-15T22:08:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 111",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-10-05T05:50:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-05T05:50:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 112",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-05-27T21:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-27T21:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 113",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-06-06T16:27:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-06T16:27:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 114",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-02-02T09:57:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-02T09:57:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 115",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-06-23T05:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-23T05:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 116",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-01-13T04:36:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-13T04:36:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 117",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-08-11T12:59:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-11T12:59:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 118",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-05-25T18:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-25T18:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 119",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-05-20T16:33:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-20T16:33:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 120",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-03-02T16:45:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-02T16:45:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 121",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-05-31T23:55:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-31T23:55:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 122",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-01-22T09:08:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-22T09:08:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 123",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-02-06T13:35:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-06T13:35:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 124",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-07-22T08:38:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-22T08:38:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 125",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-11-08T17:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-08T17:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 126",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-10-31T18:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-31T18:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 127",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-12-08T05:08:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-08T05:08:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 128",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-06-17T22:04:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-17T22:04:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 129",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-06-16T09:29:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-16T09:29:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 130",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-12-10T21:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-10T21:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 131",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-11-16T16:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-16T16:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 132",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-08-19T04:49:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-19T04:49:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 133",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-02-06T07:29:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-06T07:29:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 134",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-01-09T05:36:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-09T05:36:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 135",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-01-25T20:15:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-25T20:15:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 136",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-10-16T23:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-16T23:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 137",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-09-06T20:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-06T20:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 138",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-03-31T03:46:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-31T03:46:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 139",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-06-18T07:13:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-18T07:13:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 140",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-02-02T00:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-02T00:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 141",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-03-09T04:52:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-09T04:52:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 142",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-05-16T07:27:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-16T07:27:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 143",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-03-27T21:52:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-27T21:52:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 144",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-11-01T19:42:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-01T19:42:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 145",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-11-14T17:12:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-14T17:12:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 146",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-03-17T01:23:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-17T01:23:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 147",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-02-18T06:46:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-18T06:46:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 148",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-02-24T10:28:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-24T10:28:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 149",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-09-14T09:32:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-14T09:32:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 150",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-01-21T02:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-21T02:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 151",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-11-06T10:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-06T10:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 152",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-08-27T06:16:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-27T06:16:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 153",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-08-07T10:08:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-07T10:08:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 154",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-02-27T12:24:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-27T12:24:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 155",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-06-16T19:58:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-16T19:58:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 156",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-08-24T13:49:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-24T13:49:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 157",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-06-05T12:07:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-05T12:07:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 158",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-12-19T13:25:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-19T13:25:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 159",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-11-12T14:32:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-12T14:32:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 160",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-01-30T00:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-30T00:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 161",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-08-05T11:47:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-05T11:47:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 162",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-08-25T21:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-25T21:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 163",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-07-23T13:25:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-23T13:25:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 164",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-04-21T16:34:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-21T16:34:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 165",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-02-20T18:37:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-20T18:37:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 166",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-04-11T04:57:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-11T04:57:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 167",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-02-27T09:16:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-27T09:16:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 168",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-04-04T15:27:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-04T15:27:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 169",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-06-11T07:53:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-11T07:53:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 170",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-11-14T01:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-14T01:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 171",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-10-07T03:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-07T03:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 172",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-06-11T12:38:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-11T12:38:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 173",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-10-04T07:55:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-10-04T07:55:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 174",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-03-23T03:36:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-23T03:36:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 175",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-02-13T18:43:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-13T18:43:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 176",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-02-21T06:20:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-02-21T06:20:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 177",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-07-30T07:37:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-30T07:37:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 178",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=2&applicationDate=2020-09-05T05:26:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-05T05:26:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 179",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-05-09T00:04:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-09T00:04:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 180",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-11-05T09:03:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-05T09:03:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 181",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=1&applicationDate=2020-06-23T01:39:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-23T01:39:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 182",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-03-16T06:03:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-03-16T06:03:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 183",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=1&applicationDate=2020-11-23T04:09:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-23T04:09:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 184",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-05-19T16:25:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-19T16:25:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 185",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-04-15T17:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-15T17:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 186",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-09-27T16:15:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-27T16:15:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 187",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-07-05T01:57:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-05T01:57:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 188",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=2&applicationDate=2020-11-09T00:18:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-11-09T00:18:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 189",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-09-15T20:11:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-09-15T20:11:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 190",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=40000&brandId=1&applicationDate=2020-08-03T03:32:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "40000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-03T03:32:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 191",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-07-03T14:14:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-03T14:14:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 192",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-04-13T06:33:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-13T06:33:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 193",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=1&applicationDate=2020-08-26T17:10:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-08-26T17:10:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 194",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=2&applicationDate=2020-04-26T04:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-04-26T04:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 195",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=10000&brandId=1&applicationDate=2020-05-26T10:13:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "10000"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-05-26T10:13:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 196",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-12-11T21:46:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-12-11T21:46:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 197",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=35455&brandId=1&applicationDate=2020-06-09T03:35:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-06-09T03:35:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 198",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=20000&brandId=2&applicationDate=2020-07-22T23:54:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "20000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-07-22T23:54:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 199",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=30000&brandId=2&applicationDate=2020-01-15T22:30:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "30000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-15T22:30:00"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Price - Test 200",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/prices?productId=50000&brandId=2&applicationDate=2020-01-18T07:22:00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "productId",
+									"value": "50000"
+								},
+								{
+									"key": "brandId",
+									"value": "2"
+								},
+								{
+									"key": "applicationDate",
+									"value": "2020-01-18T07:22:00"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "[GET] Prices - PROD-ES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14T18:30:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14T18:30:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - Test 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14T10:00:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14T10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - Test 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14T16:00:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14T16:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - Test 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-14T21:00:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-14T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - Test 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-15T10:00:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-15T10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - Test 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-16T21:00:00&productId=35455&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - 400 Bad Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-16T21:00:00&productId=test&brandId=1\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "test"
+						},
+						{
+							"key": "brandId",
+							"value": "1\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "[GET] Prices - 204 No Content",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/prices?applicationDate=2020-06-16T21:00:00&productId=35000&brandId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "applicationDate",
+							"value": "2020-06-16T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35000"
+						},
+						{
+							"key": "brandId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
