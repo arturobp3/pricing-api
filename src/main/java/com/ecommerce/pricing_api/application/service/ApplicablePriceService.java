@@ -76,13 +76,9 @@ public class ApplicablePriceService implements ApplicablePriceUseCase {
                                 !applicationDate.isBefore(p.startDate().get()) &&
                                 !applicationDate.isAfter(p.endDate().get())
                 )
-                .sort((p1, p2) ->
-                        Long.compare(
-                                p2.priority().orElse(0L),
-                                p1.priority().orElse(0L)
-                        )
+                .reduce((p1, p2) ->
+                        p1.priority().orElse(0L) >= p2.priority().orElse(0L) ? p1 : p2
                 )
-                .next()
                 .map(Optional::of)
                 .switchIfEmpty(Mono.just(Optional.empty()))
                 .doOnNext(optPrice -> {
