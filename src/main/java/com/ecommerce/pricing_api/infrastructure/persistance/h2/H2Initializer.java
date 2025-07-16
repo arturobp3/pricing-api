@@ -39,7 +39,7 @@ public class H2Initializer {
 
         String env = System.getenv().getOrDefault("APP_ENV", "prod");
         String region = System.getenv().getOrDefault("APP_REGION", "es");
-        String jsonPath = String.format("data/%s/%s/large_entries.json", env, region);
+        String jsonPath = String.format("data/%s/%s/entries.json", env, region);
         String ddlPath = "schema.sql";
 
         readSqlFromClasspath(ddlPath)
