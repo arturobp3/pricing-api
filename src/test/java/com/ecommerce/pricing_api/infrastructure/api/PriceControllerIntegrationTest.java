@@ -68,8 +68,8 @@ class PricesControllerIntegrationTest {
         }
 
         @Test
-        @DisplayName("Should return 204 No Content when no applicable price found")
-        void shouldReturnNoContentWhenNoPriceFound() {
+        @DisplayName("Should return 404 Not Found when no applicable price found")
+        void shouldReturnNotFoundWhenNoPriceFound() {
             Mockito.when(applicablePriceUseCase.getApplicablePrice(any(), any(), any()))
                     .thenReturn(Mono.just(Optional.empty()));
 
@@ -80,7 +80,7 @@ class PricesControllerIntegrationTest {
                             .queryParam("brandId", 1)
                             .build())
                     .exchange()
-                    .expectStatus().isEqualTo(HttpStatus.NO_CONTENT);
+                    .expectStatus().isEqualTo(HttpStatus.NOT_FOUND);
         }
 
         @Test
